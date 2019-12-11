@@ -1,0 +1,21 @@
+{
+  "name": "beach",
+  "displayName": "Beach",
+  "description": "Theme with colors that remind me of the beach",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.40.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Beach",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Beach-color-theme.json"
+      }
+    ]
+  }
+}
