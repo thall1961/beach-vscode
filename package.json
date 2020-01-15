@@ -2,13 +2,30 @@
   "name": "beach",
   "displayName": "Beach",
   "description": "Theme with colors that remind me of the beach",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "engines": {
     "vscode": "^1.40.0"
+  },
+  "publisher": "TomHall1961",
+  "icon": "images/logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thall1961/beach-vscode.git"
+  },
+  "galleryBanner": {
+    "color": "#1E3746",
+    "theme": "dark"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "scripts": {
+    "start": "nodemon --exec vsce package"
+  },
   "contributes": {
     "themes": [
       {
@@ -17,5 +34,9 @@
         "path": "./themes/Beach-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12",
+    "vsce": "^1.36.2"
   }
 }
