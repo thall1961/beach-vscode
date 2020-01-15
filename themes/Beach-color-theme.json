@@ -13,14 +13,14 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#002fff"
+        "foreground": "#a6ffe9"
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#d7ffff"
       }
     },
     {
@@ -72,7 +72,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#629460"
       }
     },
     {
@@ -92,7 +92,7 @@
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#629460"
       }
     },
     {
@@ -115,7 +115,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#1ef1bd"
+        "foreground": "#629460"
       }
     },
     {
@@ -130,7 +130,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#96BE8C"
       }
     },
     {
@@ -146,7 +146,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#fca400"
+        "foreground": "#ffe291"
       }
     },
     {
@@ -204,14 +204,14 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#ac52e7"
+        "foreground": "#52e7ce"
       }
     },
     {
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#6500a8"
+        "foreground": "#e8c5ff"
       }
     },
     {
@@ -222,14 +222,14 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#ffa600"
+        "foreground": "#fdf182"
       }
     },
     {
       "name": "CSS Classes",
       "scope": ["entity.other.attribute-name.class"],
       "settings": {
-        "foreground": "#ffa600"
+        "foreground": "#f6ffa2"
       }
     },
     {
